@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     addItem() {
-      this.items.push(this.text);
+      this.items.unshift(this.text);
       this.text = "";
     },
     deleteItem(id) {
