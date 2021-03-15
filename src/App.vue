@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import Header from "./components/ui/header/header.vue";
-import Input from "./components/ui/input/input.vue";
-import List from "./components/list/list.vue";
+import Header from "@/components/ui/header/header.vue";
+import Input from "@/components/ui/input/input.vue";
+import List from "@/components/list/list.vue";
 
 export default {
   name: "App",
