@@ -1,7 +1,7 @@
 <template>
   <div class="list">
     <div class="list__empty" v-if="!items.length">
-      You have no item to do! You can add an item now!
+      You have nothing to do! Don't be lazy, you can add an item now!
     </div>
 
     <ul>
